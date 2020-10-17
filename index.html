@@ -1,62 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FORM DATA DIRI</title>
+	<title>Formulir Pendaftaran</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
-		<h1>FORMULIR DATA DIRI</h1>
-		<p>NAMA DEPAN</p>
-		<input class="border-form" type="text">
+		<div class="tiitle-form">
+			<h1>Formulir Pendaftaran</h1>
+		</div>
 
-		<p>NAMA BELAKANG</p>
-		<input class="border-form" type="text">
+		<div class="form">
+			<div class="form-field">
+				<label>Nama Depan</label>
+				<input type="text" name="">
+			</div>
+		</div>
 
-		<p>TANGGAL LAHIR</p>
-		<input type="date">
+		<div class="form">
+			<div class="form-field">
+				<label>Nama Belakang</label>
+				<input type="text" name="">
+			</div>
+		</div>
 
-		<p>WARNA KESUKAAN</p>
-		<input type="color" name="">
+		<div class="form">
+			<div class="form-field">
+				<label>Alamat</label>
+				<input type="text" name="">
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+<!--span berfungsi untuk element atau ruang kosong--->
+				<span></span>
+				<input type="text" name="">
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+				<label>Agama</label>
+				<select>
+					<option>Pilih</option>
+					<option>Islam</option>
+					<option>Kristen</option>
+					<option>Hindu</option>
+					<option>Budha</option>
+					<option>Katholik</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+				<label>Jenis Kelamin</label>
+				<select>
+					<option>Pilih</option>
+					<option>Laki-Laki</option>
+					<option>Permpuan</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+				<label>Password</label>
+				<input type="password" name="">
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+				<label>Ceritakan diri Anda</label>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+				<input type="file" name="">
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-field">
+				<input type="checkbox" name="">
+				<p>Accept Terms & Conditions</p>
+			</div>
+		</div>
+
+		<div class="form">
+				<input class="btn" type="submit" name="">
+		</div>
 		
-
-		<p>JENIS KELAMIN</p>
-		<input type="radio" id="male" name="gender" value="male">
-		<label>Laki-Laki</label>
-		<input type="radio" id="female" name="gender" value="female">
-		<label>Perempuan</label>
-
-		<p>AGAMA</p>
-		<ul>
-			<li><input type="checkbox" name="agama" value="islam">
-			<label>Islam</label></li>
-			<li><input type="checkbox" name="agama" value="kristen">
-			<label>Kristen</label></li>
-			<li><input type="checkbox" name="agama" value="hindu">
-			<label>Hindu</label></li> 
-			<li><input type="checkbox" name="agama" value="budha">
-			<label>Budha</label></li> 
-			<li><input type="checkbox" name="agama" value="katolik">
-			<label>Katholik</label></li> 
-		</ul>
-
-		<p>JUMLAH ANGGOTA KELUARGA</p>
-		<input type="number">
-
-		<p>EMAIL</p>
-		<input class="border-form" type="email" name="email">
-
-		<p>PASSWORD</p>
-		<input class="border-form" type="password" name="password">
-		<p><a href="#">forgot passsword?</a></p>
-
-		<p>UNGGAH FOTO</p>
-		<input type="file">
-		<p>(format file jpg/png/img.)</p>
-
-		<button>Next</button>
-
 	</div>
 
 </body>

@@ -1,45 +1,75 @@
-.container{
-	width: 50%;
-	height: 1000px;
-	border:10px solid;
-	padding: 20px;
-	margin: 100px 25%;
-	border-radius: 5px;
-	/*box shadow untuk membuat efek 3d*/
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+body{
+	background: bisque;
 }
 
-.border-form{
-	/*cara membuat login dengan garis bawah*/
+.container{
+	max-width: 500px;
+	width: 100%;
+	background-color: #f4f4f4;
+	padding: 30px;
+	margin: 20px auto;
+}
+
+.container .tiitle-form h1{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.container .form{
+	width: 100%;
+}
+
+.container .form .form-field{
+	display: flex;
+	align-items: center;
+	margin: 20px;
+}
+
+/*span berfungsi untuk element atau ruang kosong*/
+
+.container .form .form-field span{
+	width: 200px;
+}
+
+.container .form .form-field label{
+	width: 200px;
+	font-size: 20px;
+}
+
+.container .form .form-field input{
 	border: none;
 	border-bottom: 1px solid;
+	background: transparent;
 	outline: none;
 }
 
-.container h1{
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	text-decoration: underline;
-	height: 80px;
+.container .form .form-field input[type="file"]{
+	border: none;
 }
 
-.container li{
-	list-style-type: none;
+.container .form .form-field textarea{
+	background: transparent;
+	outline: none;
 }
 
-.container a{
-	font-style: italic;
-	/*garis pada forgot password hilang*/
-	text-decoration: none;
+.container .form .form-field select{
+	background: transparent;
+	outline: none;
 }
 
-button{
+.container .form .form-field p{
+	margin: 0 10px;
+}
+
+.container .form .btn{
+	padding: 5px;
+	margin: 0 19px;
+	border: 1px solid;
+	border-radius: 3px;
 	cursor: pointer;
 }
 
-button:hover{
-	color: blue;
-	background-color: #f4f4f4;
+.container .form .btn:hover{
+	background: #DCDCDC;
 }
