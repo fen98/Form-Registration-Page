@@ -1,0 +1,45 @@
+.container{
+	width: 50%;
+	height: 1000px;
+	border:10px solid;
+	padding: 20px;
+	margin: 100px 25%;
+	border-radius: 5px;
+	/*box shadow untuk membuat efek 3d*/
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.border-form{
+	/*cara membuat login dengan garis bawah*/
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+}
+
+.container h1{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	height: 80px;
+}
+
+.container li{
+	list-style-type: none;
+}
+
+.container a{
+	font-style: italic;
+	/*garis pada forgot password hilang*/
+	text-decoration: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+button:hover{
+	color: blue;
+	background-color: #f4f4f4;
+}
